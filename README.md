@@ -19,6 +19,9 @@
 <a target="_blank" href="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="42" height="42" /></a></p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=crhaxx&show_icons=true&locale=en" alt="crhaxx" /></p>
 
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=crhaxx&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
 <p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=crhaxx&show_icons=true&locale=en&layout=compact" alt="crhaxx" /></p>
 <p><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=crhaxx" alt="crhaxx" /></a></p>
 
