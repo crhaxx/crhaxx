@@ -24,8 +24,5 @@
 
 <p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=crhaxx&show_icons=true&locale=en&layout=compact" alt="crhaxx" /></p>
 <p><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=crhaxx" alt="crhaxx" /></a></p>
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=crhaxx&limit=5&theme=dark&combine_all_yearly_contributions=true)
 ---
 [![](https://visitcount.itsvg.in/api?id=crhaxx&icon=0&color=0)](https://visitcount.itsvg.in)
