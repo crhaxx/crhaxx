@@ -18,7 +18,7 @@
 
 I'm a student developer from Brno who likes connecting software with infrastructure — not just writing code, but understanding how apps run and how to ship them reliably.
 
-Currently **Backend Developer at [Dibsido](https://dibsido.com)** and co-founder of **[NCCore](https://nikola.weply.cz)** and **[Weply.cz](https://weply.cz)**. I also help run tech operations for **CTRL Europe**.
+Currently **Backend Developer at [Dibsido](https://dibsido.com)** and co-founder of **[NCCore](https://nikola.weply.cz)** and **[Weply.cz](https://weply.cz)**. I also help run tech operations for **[CTRL Europe](https://ctrleurope.com)**.
 
 I learn best by solving real problems — debugging databases, fixing configs, and shipping features that people actually use.
 
