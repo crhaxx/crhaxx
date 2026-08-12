@@ -44,7 +44,7 @@ I learn best by solving real problems — debugging databases, fixing configs, a
 | Project                                   | Status         | Description                                                                                                                               |
 | ----------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | **[NCCore](https://nccore.cz)**     | Live           | Co-founder — Neuron Context Core: private AI that connects documents, invoices & databases. End-to-end delivery on a dedicated subdomain. |
-| **GoalPilot**                             | In development | Flutter (Android) goal-planning app with AI milestones via Gemini API (BYOK).                                                             |
+| **[GoalPilot](https://github.com/crhaxx/goal_pilot)**                             | In development | Flutter (Android) goal-planning app with AI milestones via Gemini API (BYOK).                                                             |
 | **[CTRL Europe](https://ctrleurope.com)** | Live           | Backend & Supabase for a student org focused on AI awareness.                                                                             |
 | **[Weply.cz](https://weply.cz)**          | Live           | Modern, fast, fully responsive websites for clients.                                                                                      |
 
