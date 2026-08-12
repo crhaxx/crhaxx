@@ -18,7 +18,7 @@
 
 I'm a student developer from Brno who likes connecting software with infrastructure — not just writing code, but understanding how apps run and how to ship them reliably.
 
-Currently **Backend Developer at [Dibsido](https://dibsido.com)** and co-founder of **[NCCore](https://nikola.weply.cz)** and **[Weply.cz](https://weply.cz)**. I also help run tech operations for **[CTRL Europe](https://ctrleurope.com)**.
+Currently **Backend Developer at [Dibsido](https://dibsido.com)** and co-founder of **[NCCore](https://nccore.cz)** and **[Weply.cz](https://weply.cz)**. I also help run tech operations for **[CTRL Europe](https://ctrleurope.com)**.
 
 I learn best by solving real problems — debugging databases, fixing configs, and shipping features that people actually use.
 
@@ -33,7 +33,7 @@ I learn best by solving real problems — debugging databases, fixing configs, a
 | Role                                 | Organization                          | Focus                                              |
 | ------------------------------------ | ------------------------------------- | -------------------------------------------------- |
 | **Backend Developer**                | [Dibsido](https://dibsido.com)        | Backend architecture & modern backend stack        |
-| **Co-founder & Developer**           | [NCCore](https://nikola.weply.cz)     | Private enterprise AI — docs, invoices & databases |
+| **Co-founder & Developer**           | [NCCore](https://nccore.cz)     | Private enterprise AI — docs, invoices & databases |
 | **Co-founder & Developer**           | [Weply.cz](https://weply.cz)          | Client websites — design to deployment             |
 | **Portal Management & Tech Support** | [CTRL Europe](https://ctrleurope.com) | Portal ops, reporting, system reliability          |
 
@@ -43,7 +43,7 @@ I learn best by solving real problems — debugging databases, fixing configs, a
 
 | Project                                   | Status         | Description                                                                                                                               |
 | ----------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **[NCCore](https://nikola.weply.cz)**     | Live           | Co-founder — Neuron Context Core: private AI that connects documents, invoices & databases. End-to-end delivery on a dedicated subdomain. |
+| **[NCCore](https://nccore.cz)**     | Live           | Co-founder — Neuron Context Core: private AI that connects documents, invoices & databases. End-to-end delivery on a dedicated subdomain. |
 | **GoalPilot**                             | In development | Flutter (Android) goal-planning app with AI milestones via Gemini API (BYOK).                                                             |
 | **[CTRL Europe](https://ctrleurope.com)** | Live           | Backend & Supabase for a student org focused on AI awareness.                                                                             |
 | **[Weply.cz](https://weply.cz)**          | Live           | Modern, fast, fully responsive websites for clients.                                                                                      |
