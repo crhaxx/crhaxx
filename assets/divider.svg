@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="28" viewBox="0 0 900 28" role="img" aria-label="">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39d0d8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="40" y="13" width="820" height="2" rx="1" fill="url(#line)" filter="url(#glow)"/>
+  <circle cx="450" cy="14" r="4" fill="#58a6ff" filter="url(#glow)">
+    <animate attributeName="cx" values="120;780;120" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="14" r="8" fill="none" stroke="#39d0d8" stroke-width="1" opacity="0.5">
+    <animate attributeName="r" values="4;12;4" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="120;780;120" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

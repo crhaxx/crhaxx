@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Nikola Crhák  Backend &amp; Mobile Developer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#0d1526"/>
+      <stop offset="100%" stop-color="#0a0e17"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#39d0d8;#58a6ff;#7c9cff;#58a6ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#39d0d8">
+        <animate attributeName="stop-color" values="#39d0d8;#58a6ff;#a5f3fc;#39d0d8" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7c9cff">
+        <animate attributeName="stop-color" values="#7c9cff;#58a6ff;#39d0d8;#7c9cff" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#58a6ff" stroke-width="0.6" opacity="0.12"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- floating orbs -->
+    <circle cx="180" cy="90" r="70" fill="#58a6ff" opacity="0.08">
+      <animate attributeName="cy" values="90;110;90" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="220" r="90" fill="#39d0d8" opacity="0.07">
+      <animate attributeName="cy" values="220;190;220" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.05;0.12;0.05" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="60" r="40" fill="#7c9cff" opacity="0.1">
+      <animate attributeName="cx" values="700;740;700" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- scan line -->
+    <rect x="0" y="0" width="1200" height="48" fill="url(#scan)">
+      <animate attributeName="y" values="-48;320" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- corner brackets -->
+    <g stroke="url(#neon)" stroke-width="2" fill="none" filter="url(#glow)" opacity="0.9">
+      <path d="M40 80 V48 H72"/>
+      <path d="M1160 80 V48 H1128"/>
+      <path d="M40 240 V272 H72"/>
+      <path d="M1160 240 V272 H1128"/>
+    </g>
+
+    <!-- pulse dots -->
+    <g filter="url(#glow)">
+      <circle cx="56" cy="56" r="3" fill="#58a6ff">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1144" cy="56" r="3" fill="#39d0d8">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="56" cy="264" r="3" fill="#39d0d8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1144" cy="264" r="3" fill="#58a6ff">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- status chip -->
+    <g transform="translate(600, 58)">
+      <rect x="-92" y="-14" width="184" height="28" rx="14" fill="#111827" stroke="#233554" stroke-width="1"/>
+      <circle cx="-68" cy="0" r="5" fill="#3fb950">
+        <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-52" y="5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">AVAILABLE FOR WORK</text>
+    </g>
+
+    <!-- name -->
+    <text x="600" y="150" text-anchor="middle" fill="url(#neon)" filter="url(#softGlow)"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="52" font-weight="700" letter-spacing="2">
+      NIKOLA CRHÁK
+    </text>
+
+    <!-- subtitle -->
+    <text x="600" y="195" text-anchor="middle" fill="#c9d1d9"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="20" letter-spacing="4">
+      BACKEND  ·  MOBILE  ·  INFRASTRUCTURE
+    </text>
+
+    <!-- bottom accent line -->
+    <rect x="360" y="230" width="480" height="2" rx="1" fill="url(#neon)" filter="url(#glow)">
+      <animate attributeName="width" values="200;480;200" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="500;360;500" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="600" y="268" text-anchor="middle" fill="#58a6ff" opacity="0.85"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="14" letter-spacing="6">
+      BRNO · CZECH REPUBLIC
+    </text>
+  </g>
+</svg>
