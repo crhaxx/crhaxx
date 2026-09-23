@@ -6,7 +6,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=Backend+%26+Mobile+Developer;Building+with+.NET+%7C+Flutter+%7C+TypeScript;Co-founder+of+NCCore+%26+Weply.cz;Always+learning%2C+always+shipping)](https://git.io/typing-svg)
 
-[![Website](https://img.shields.io/badge/Portfolio-nikola.weply.cz-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nikola.weply.cz)
+[![Website](https://img.shields.io/badge/Portfolio-nikolacrhak.cz-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nikolacrhak.cz)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nikola--crhak-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikola-crhak)
 [![Instagram](https://img.shields.io/badge/Instagram-nikola.crhak-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nikola.crhak)
 
