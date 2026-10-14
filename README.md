@@ -46,7 +46,7 @@ I learn best by solving real problems — debugging databases, fixing configs, a
 ```diff
 + Open to freelance / open-source collabs
 + Hybrid / remote friendly
-! Portfolio → nikola.weply.cz
+! Portfolio → nikolacrhak.cz
 ```
 
 <br clear="both"/>
