@@ -175,7 +175,7 @@ I learn best by solving real problems — debugging databases, fixing configs, a
 
 Need help with **backend**, **mobile apps**, **databases**, or **infrastructure**?
 
-[![Portfolio](https://img.shields.io/badge/Open_Portfolio-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://nikola.weply.cz)
+[![Portfolio](https://img.shields.io/badge/Open_Portfolio-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://nikolacrhak.cz)
 [![LinkedIn](https://img.shields.io/badge/Message_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikola-crhak)
 
 <br/>
